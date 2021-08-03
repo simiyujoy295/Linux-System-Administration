@@ -1,0 +1,85 @@
+SIMIYU JOY ABIGAEL
+REG.NO: 120
+EMAIL: joy.simiyu@womentechstes.org
+Part 1: of Practical Activity Week 3
+1.	List the processes for the current shell.
+This is done using the command  ps –A as shown below.
+ 
+ 
+2.	Display information about processes.
+This is done using the command ps aux as shown below.
+ 
+ 
+3.	Display the global priority of a process and find out the column that provides.
+Each process is listed with different parameters which includes its priority. To see the priority of a process the command used below is used as shown.
+ 
+4.	Change the priority of a process with default arguments.
+To change the priority of a process, the command renice n [new priority to be assigned to process] –p [priority id] is used as shown below.
+
+ 
+5.	Display Virtual Memory Statistics.
+ 
+6.	Display System Event Information.
+ 
+7.	Display Swapping Statistics.
+This involves swapping is a space on a disk or virtual disk used for storage when the amount of physical RAM memory is full. In Ubuntu, this is done using the command cat /proc/swaps
+
+ 
+8.	Check File Access statistics.
+ 
+ 
+9.	Check Buffer Activity statistics.
+ 
+10.	Check Disk Activity statistics.
+
+ 
+11.	Check Inter process Communication statistics.
+ 
+12.	Check Unused Memory in the server.
+Command for checking unused memory is free –m as shown below.
+ 
+
+
+13.	Check Swap Activities.
+ 
+
+Part 2 : Practical Activity Week 3
+1.	Create a user account called user1 and another user2
+ 
+ 
+ 
+2.	Ensure user1 and user2 are password protected.
+ 
+3.	Logout and login as user1
+ 
+
+4.	Create a testdir
+ 
+5.	Create a file testfile in testdir
+ 
+6.	Verify the ownership and the group of the testfile
+ 
+7.	Switch to Superuser account
+ 
+8.	Create a public directory dir1
+ 
+9.	Set stickybit (save text attribute) on dir1
+ 
+10.	Logout and login as a normal user user1
+ 
+11.	Create a file userfile1 in dir1
+ 
+12.	Login as a different user user2
+This is shown below: the log in process of new user user1 and the user logged in.
+ 
+ 
+13.	Try to edit or remove the file
+ 
+ 
+ 
+
+14.	Temporarily disable user logins
+ 
+
+
+
